@@ -10,6 +10,7 @@
 <!--모바일,PC등 다른 기기에서도 디자인 최적화-->
 <link rel="stylesheet" href="css/bootstrap.css">
 <!-- css폴더>bootstrap.css파일을 참조해서 홈페이지 기본 디자인으로 지정 -->
+<link rel="stylesheet" href="css/custom.css"> <!-- 내가 설정하고 싶은 글씨체를 넣기위해 -->
 <title>JSP 게시판 웹 사이트</title>
 </head>
 <body>
@@ -99,6 +100,8 @@
 
 		</div>
 	</div>
+	
+	
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
