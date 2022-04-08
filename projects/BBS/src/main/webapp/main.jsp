@@ -9,6 +9,7 @@
 <meta name="viewport" content="width=device-width" , initial-scale="1">
 <!--모바일,PC등 다른 기기에서도 디자인 최적화-->
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/custom.css"> <!-- 내가 설정하고 싶은 글씨체를 넣기위해 -->
 <!-- css폴더>bootstrap.css파일을 참조해서 홈페이지 기본 디자인으로 지정 -->
 <title>JSP 게시판 웹 사이트</title>
 </head>
@@ -73,6 +74,45 @@
 
 		</div>
 	</nav>
+	
+	<div class="container">
+		<div class = "jumbotron">
+			<div class="container">
+				<h1> 새솜이와 연수의 요이땅♥</h1>
+				<p> 새솜아 사랑해 보고싶어 웅뉴ㄴ뉸뉴</p>
+				<p> <a class ="btn btn-primary btn-pull" href="#" role="button">자세히 알아보기</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 이미지를 넣기위해 carousel을 사용 -->
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/1.jpg">
+				</div>
+				<div class="item">
+					<img src="images/2.jpg">
+				</div>
+				<div class="item">
+					<img src="images/3.jpg">
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+	
 
 	
 	
