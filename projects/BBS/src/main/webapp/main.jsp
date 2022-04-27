@@ -78,8 +78,10 @@
 	<div class="container">
 		<div class = "jumbotron">
 			<div class="container">
-				<h1> 새솜이와 연수의 요이땅♥</h1>
-				<p> 새솜아 사랑해 보고싶어 웅뉴ㄴ뉸뉴</p>
+				<h1> JSP 게시판 웹페이지 </h1>
+				<p> JSP를 활용한 간단한 게시판 웹페이지를 제작해봤습니다. MYSQL을 이용해 DB를 처리했고 디자인 템플릿으로는 부트스트랩을 사용했습니다.
+				회원가입, 로그인 기능이 구현되었고 회원정보에 기반하여 게시판에 게시글을 작성할 수 있습니다! 추가적으로 Cross-site scripting 공격에 대한
+				대비 장치도 마련되어 있습니다! </p>
 				<p> <a class ="btn btn-primary btn-pull" href="#" role="button">자세히 알아보기</a></p>
 			</div>
 		</div>
