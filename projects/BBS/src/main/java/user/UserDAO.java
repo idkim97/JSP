@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+// 데이터베이스 접근 객체
+// DB에서 회원정보를 불러오거나 DB에 회원정보를 넣고자 할때 사용
 public class UserDAO {
 
 	private Connection conn;
