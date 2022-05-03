@@ -62,6 +62,7 @@
 			
 		</div>
 	</div>
+	<!--  애니메이션을 담당하게될 자바스크립트 -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 
