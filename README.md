@@ -26,10 +26,10 @@
 ## 설치 방법
 **개발환경**
 
-> JAVA 버전 : JDK1.8.0 
-> 서버 : Tomcat 8.5.14
-> Eclipse IDE for Enterprise and Web Developers - 2021.12
-> DB : MySQL 5.7.18
+> JAVA 버전 : JDK1.8.0  
+> 서버 : Tomcat 8.5.14  
+> Eclipse IDE for Enterprise and Web Developers - 2021.12  
+> DB : MySQL 5.7.18  
 
 **개발 환경이 모두 갖춰진 뒤에는 로컬 환경에서 바로 실행 가능합니다!**
 
