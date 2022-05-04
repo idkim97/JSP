@@ -15,7 +15,7 @@ public class UserDAO {
 
 	public UserDAO() {
 		try {
-			// 내 컴퓨터의 로컬호스트에 있는 BBS폴더에 접근하도록 한다
+			// 내 컴퓨터의 로컬호스트에 있는 BBS라는 이름을 가진 DB에 접근하도록 한다
 			String dbURL = "jdbc:mysql://localhost:3306/BBS";
 			String dbID = "root";
 			String dbPassword = "root";
